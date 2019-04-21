@@ -69,7 +69,7 @@ class Component extends React.Component {
   }
 }
 
-Component.PropTypes = {
+Component.propTypes = {
   name: PropTypes.string
 };
 

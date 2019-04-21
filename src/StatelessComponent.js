@@ -30,7 +30,7 @@ const StatelessComponent = props => {
   );
 };
 
-StatelessComponent.PropTypes = {
+StatelessComponent.propTypes = {
   name: PropTypes.string
 };
 

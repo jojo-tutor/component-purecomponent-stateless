@@ -69,7 +69,7 @@ class PureComponent extends React.PureComponent {
   }
 }
 
-PureComponent.PropTypes = {
+PureComponent.propTypes = {
   name: PropTypes.string
 };
 
