@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 let renderCount = 0;
 let setStateCount = 0;
@@ -67,5 +68,9 @@ class Component extends React.Component {
     );
   }
 }
+
+Component.PropTypes = {
+  name: PropTypes.string
+};
 
 export default Component;

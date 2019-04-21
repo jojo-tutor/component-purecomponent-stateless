@@ -1,7 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 let renderCount = 0;
-let setStateCount = 0;
 const StatelessComponent = props => {
   renderCount += 1;
   const propsString = JSON.stringify(props, null, 4);
@@ -28,6 +28,10 @@ const StatelessComponent = props => {
       <div className="group empty" />
     </div>
   );
+};
+
+StatelessComponent.PropTypes = {
+  name: PropTypes.string
 };
 
 export default StatelessComponent;
