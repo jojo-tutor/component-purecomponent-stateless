@@ -1,7 +1,6 @@
 import React from "react";
 
 let renderCount = 0;
-let setStateCount = 0;
 const StatelessComponent = props => {
   renderCount += 1;
   const propsString = JSON.stringify(props, null, 4);

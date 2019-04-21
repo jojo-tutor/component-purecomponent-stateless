@@ -1,12 +1,13 @@
 {
-  "name": "component-purecomponent-stateless-component",
-  "homepage":"https://jojo-tutor.github.io/component-purecomponent-stateless-component",
+  "name": "component-purecomponent-stateless",
+  "homepage": "https://jojo-tutor.github.io/component-purecomponent-stateless",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "2.1.8"
